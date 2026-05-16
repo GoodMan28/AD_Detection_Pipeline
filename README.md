@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     classDef baseline fill:#f9d0c4,stroke:#333,stroke-width:2px;
     classDef context fill:#fcedaa,stroke:#333,stroke-width:2px;
@@ -33,3 +34,4 @@ flowchart TD
     P5 --> F5["Features: All Neuro & Functional Batteries<br>+ Full Demographics + APOE4"]
     F5 --> M5["Algorithm: XGBoost (No Scaling, NaN Inclusive)"]
     M5 --> A5(("Final Accuracy: 88.87%<br>MCI Recall: 90%"))
+```
